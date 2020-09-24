@@ -3,8 +3,8 @@ WORKDIR /app
 
 RUN apk add --no-cache --virtual=build-dependencies --upgrade \
         git && \
-    git clone https://github.com/wiseindy/timer-for-google-assistant.git . && \
-    git checkout dev && \
+    git clone https://github.com/ryther/timer-for-google-assistant.git . && \
+    git checkout set-gitattributes-test && \
     rm -rf .git
 
 #RUN \
